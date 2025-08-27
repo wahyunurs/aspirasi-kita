@@ -1,0 +1,26 @@
+# Core
+fastapi
+uvicorn[standard]
+SQLAlchemy
+alembic
+psycopg2-binary
+pydantic
+python-dotenv
+python-multipart
+email-validator
+httpx
+typer
+
+# Security
+PyJWT
+passlib[bcrypt]
+
+# Optional Auth
+google-auth
+google-auth-httplib2
+google-api-python-client
+
+# Dev
+black
+rich
+watchfiles
